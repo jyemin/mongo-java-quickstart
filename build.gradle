@@ -10,9 +10,8 @@ repositories {
 
 dependencies {
     compile 'org.mongodb:mongodb-driver:3.0.0'
-    compile 'org.apache.logging.log4j:log4j-api:2.3'
-    compile 'org.apache.logging.log4j:log4j-core:2.3'
-    compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.3'
+    compile 'log4j:log4j:1.2.17'
+    compile 'org.slf4j:slf4j-log4j12:1.7.12'
 }
 
 sourceSets {
